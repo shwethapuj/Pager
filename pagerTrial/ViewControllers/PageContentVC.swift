@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PageContentVC.swift
 //  pagerTrial
 //
 //  Created by ios1 on 19/04/18.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class PageContentVC: UIViewController {
+    var pageIndex : Int?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +23,3 @@ class ViewController: UIViewController {
 
 
 }
-
